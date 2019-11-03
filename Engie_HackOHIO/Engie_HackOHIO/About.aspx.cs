@@ -36,14 +36,17 @@ namespace Engie_HackOHIO
         protected void ddlUnitsBot_SelectedIndexChanged(object sender, EventArgs e)
         {
             // Get new value field and invoke the calculator
-            string[] units = { ddlUnitsTop.SelectedValue, ddlUnitsBot.SelectedValue };
+            // string[] units = { ddlUnitsTop.SelectedValue, ddlUnitsBot.SelectedValue };
+            Guid id = new Guid();
+            ScriptManager.RegisterStartupScript(this, GetType(),id.ToString(), "calculate()", false);
 
-            if (isValid(txtCalcTop.Text.ToString()) && isValid(txtCalcBot.Text.ToString()))
-            {
-                // invoke calc
-                double calculated = calculateResult(Double.Parse(txtCalcTop.Text.ToString()), units);
-                txtCalcBot.Text = calculated.ToString();
-            }
+            //if (isValid(txtCalcTop.Text.ToString()) && isValid(txtCalcBot.Text.ToString()))
+            //{
+            //    // invoke calc
+            //    double calculated = calculateResult(Double.Parse(txtCalcTop.Text.ToString()), units);
+            //    // txtCalcBot.Text = calculated.ToString();
+            //    ScriptManager.RegisterStartupScript(this, GetType(), (, "calculate()", false);
+            //}
 
         }
 
@@ -53,7 +56,8 @@ namespace Engie_HackOHIO
             if (isValid(txtCalcTop.Text.ToString()))
             {
                 double calculated = calculateResult(Double.Parse(txtCalcTop.Text.ToString()), units);
-                txtCalcBot.Text = calculated.ToString();
+                // txtCalcBot.Text = calculated.ToString();
+                ScriptManager.RegisterStartupScript(this, GetType(), "cool", "calculate()", false); 
             }
         }
 

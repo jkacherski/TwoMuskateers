@@ -7,13 +7,20 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Engie_HackOHIO
-{
-
-
-    public partial class About
-    {
-
+namespace Engie_HackOHIO {
+    
+    
+    public partial class About {
+        
+        /// <summary>
+        /// pnlCalcTop control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.UpdatePanel pnlCalcTop;
+        
         /// <summary>
         /// ddlUnitsTop control.
         /// </summary>
@@ -22,7 +29,7 @@ namespace Engie_HackOHIO
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList ddlUnitsTop;
-
+        
         /// <summary>
         /// txtCalcTop control.
         /// </summary>
@@ -31,7 +38,16 @@ namespace Engie_HackOHIO
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtCalcTop;
-
+        
+        /// <summary>
+        /// pnlCalcBot control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.UpdatePanel pnlCalcBot;
+        
         /// <summary>
         /// ddlUnitsBot control.
         /// </summary>
@@ -40,7 +56,7 @@ namespace Engie_HackOHIO
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList ddlUnitsBot;
-
+        
         /// <summary>
         /// txtCalcBot control.
         /// </summary>
