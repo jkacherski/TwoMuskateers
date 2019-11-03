@@ -15,57 +15,39 @@ namespace Engie_HackOHIO
     {
 
         /// <summary>
-        /// input1 control.
+        /// ddlUnitsTop control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox input1;
+        protected global::System.Web.UI.WebControls.DropDownList ddlUnitsTop;
 
         /// <summary>
-        /// output1 control.
+        /// txtCalcTop control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox output1;
+        protected global::System.Web.UI.WebControls.TextBox txtCalcTop;
 
         /// <summary>
-        /// input2 control.
+        /// ddlUnitsBot control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox input2;
+        protected global::System.Web.UI.WebControls.DropDownList ddlUnitsBot;
 
         /// <summary>
-        /// output2 control.
+        /// txtCalcBot control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox output2;
-
-        /// <summary>
-        /// input3 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox input3;
-
-        /// <summary>
-        /// output3 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox output3;
+        protected global::System.Web.UI.WebControls.TextBox txtCalcBot;
     }
 }
