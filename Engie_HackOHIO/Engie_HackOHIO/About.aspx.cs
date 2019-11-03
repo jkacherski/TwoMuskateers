@@ -13,5 +13,10 @@ namespace Engie_HackOHIO
         {
 
         }
+
+        protected void input_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
