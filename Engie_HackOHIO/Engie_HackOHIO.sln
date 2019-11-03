@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Engie_HackOHIO", "Engie_HackOHIO\Engie_HackOHIO.csproj", "{BF371C6B-CD64-4DCF-A081-D102D82A1BB8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF371C6B-CD64-4DCF-A081-D102D82A1BB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF371C6B-CD64-4DCF-A081-D102D82A1BB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF371C6B-CD64-4DCF-A081-D102D82A1BB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF371C6B-CD64-4DCF-A081-D102D82A1BB8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {08EC1E43-AB70-48FD-BB57-641A7791AB1B}
+	EndGlobalSection
+EndGlobal
