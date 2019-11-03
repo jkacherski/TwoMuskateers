@@ -13,31 +13,6 @@
         <p>Now that you know what a kilowatt hour means in terms of something that matters to you ($), try converting your BTUs to kWh or even straight to $!</p>
     </div>
     <div class="jumbotron">
-        <div class ="row">
-            <div style="text-align:center" class ="col-md-4">
-                <p style="text-align:center">BTU</p>
-                <asp:TextBox ID="input1"  Text="" runat ="server" OnTextChanged ="input_TextChanged"></asp:TextBox>
-                <p></p>
-                <asp:TextBox ID="output1" style="" Text="" runat ="server" ReadOnly="true"></asp:TextBox>
-                <p style="text-align:center">Dollar</p>
-            </div>
-            <div style="text-align:center" class ="col-md-4">
-                <p style="text-align:center">kWh</p>
-                <asp:TextBox ID="input2" Text="" runat ="server" OnTextChanged ="input_TextChanged"></asp:TextBox>
-                <p></p>
-                <asp:TextBox ID="output2" Text="" runat ="server" ReadOnly="true"></asp:TextBox>
-                <p style="text-align:center">Dollar</p>
-            </div>
-            <div style="text-align:center" class ="col-md-4">
-                <p style="text-align:center">kWh</p>
-                 <asp:TextBox ID="input3" Text="" runat ="server" OnTextChanged ="input_TextChanged"></asp:TextBox>
-                <p></p>
-                <asp:TextBox ID="output3" Text="" runat ="server" ReadOnly="true"></asp:TextBox>
-                <p style="text-align:center">BTU</p>
-            </div>
-        </div>
-     </div>
-    <div class="jumbotron">
         <div class="row">
             <asp:DropDownList ID="ddlUnitsTop" runat="server" CssClass="theme-list" AutoPostBack="true" OnSelectedIndexChanged="ddlUnitsTop_SelectedIndexChanged">
                 <asp:ListItem Text="kWh" Value="kWh"></asp:ListItem>
