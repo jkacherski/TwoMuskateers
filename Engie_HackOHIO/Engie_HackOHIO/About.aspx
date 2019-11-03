@@ -14,27 +14,45 @@
     </div>
     <div class="jumbotron">
         <div class ="row">
-            <div class ="col-md-4">
-                <p>BTU</p>
-                <asp:TextBox ID="input1" Text="" runat ="server" OnTextChanged ="input_TextChanged"></asp:TextBox>
+            <div style="text-align:center" class ="col-md-4">
+                <p style="text-align:center">BTU</p>
+                <asp:TextBox ID="input1"  Text="" runat ="server" OnTextChanged ="input_TextChanged"></asp:TextBox>
                 <p></p>
-                <asp:TextBox ID="output1" Text="" runat ="server" ReadOnly="true"></asp:TextBox>
-                <p>Dollar</p>
+                <asp:TextBox ID="output1" style="" Text="" runat ="server" ReadOnly="true"></asp:TextBox>
+                <p style="text-align:center">Dollar</p>
             </div>
-            <div class ="col-md-4">
-                <p>kWh</p>
+            <div style="text-align:center" class ="col-md-4">
+                <p style="text-align:center">kWh</p>
                 <asp:TextBox ID="input2" Text="" runat ="server" OnTextChanged ="input_TextChanged"></asp:TextBox>
                 <p></p>
                 <asp:TextBox ID="output2" Text="" runat ="server" ReadOnly="true"></asp:TextBox>
-                <p>Dollar</p>
+                <p style="text-align:center">Dollar</p>
             </div>
-            <div class ="col-md-4">
-                <p>kWh</p>
+            <div style="text-align:center" class ="col-md-4">
+                <p style="text-align:center">kWh</p>
                  <asp:TextBox ID="input3" Text="" runat ="server" OnTextChanged ="input_TextChanged"></asp:TextBox>
                 <p></p>
                 <asp:TextBox ID="output3" Text="" runat ="server" ReadOnly="true"></asp:TextBox>
-                <p>BTU</p>
+                <p style="text-align:center">BTU</p>
             </div>
         </div>
      </div>
+    <div class="jumbotron">
+        <div class="row">
+            <asp:DropDownList ID="ddlUnitsTop" runat="server" CssClass="theme-list" AutoPostBack="true" OnSelectedIndexChanged="ddlUnitsTop_SelectedIndexChanged">
+                <asp:ListItem Text="kWh" Value="kWh"></asp:ListItem>
+                <asp:ListItem Text="kBTU" Value="kBTU"></asp:ListItem>
+                <asp:ListItem Text="USD" Value="USD"></asp:ListItem>
+            </asp:DropDownList>
+            <asp:TextBox ID="txtCalcTop" Text="1" runat="server" OnTextChanged="txtCalcTop_TextChanged"></asp:TextBox>
+        </div>
+        <div class="row">
+            <asp:DropDownList ID="ddlUnitsBot" runat="server" CssClass="theme-list" AutoPostBack="true" OnSelectedIndexChanged="ddlUnitsBot_SelectedIndexChanged">
+                <asp:ListItem Text="USD" Value="USD"></asp:ListItem>
+                <asp:ListItem Text="kWh" Value="kWh"></asp:ListItem>
+                <asp:ListItem Text="kBTU" Value="kBTU"></asp:ListItem>
+            </asp:DropDownList>
+            <asp:TextBox ID="txtCalcBot" Text="0.131" runat="server" OnTextChanged="txtCalcBot_TextChanged"></asp:TextBox>
+        </div>
+    </div>
 </asp:Content>
